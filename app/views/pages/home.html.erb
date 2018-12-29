@@ -1,28 +1,36 @@
+<% if user_signed_in? %>
+    <div class="jumbotron jumbotron-home">
+        <div class="container">
+            <h1>Project Ruby on Rails</h1>
+        </div>
+    </div>
+<% else %>
 <div class="jumbotron jumbotron-home">
     <div class="container">
         <h1>Welcome to my website!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <%= link_to "Learn more »", "#", class: "btn btn-primary btn-lg" %> 
+        <p>This is project rails, this is my first Ruby on Rails project.</p>
+        <%= link_to "Learn more ", "#", class: "btn btn-primary btn-lg" %> 
+            
+        <% end %>
     </div>
 </div>
 <div class="container">
     <div class="row">
         <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <h2>Heading 1</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. .. </p>
             <p><%= link_to "View details", "#", class: "btn btn-secondary" %></p>
         </div>
         <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <h2>Heading 2</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. . </p>
             <p><%= link_to "View details", "#", class: "btn btn-secondary" %></p>
         </div>
         <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <h2>Heading 3</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. .. </p>
             <p><%= link_to "View details", "#", class: "btn btn-secondary" %></p>
         </div>
     </div>
 </div>
-
 
