@@ -1,0 +1,18 @@
+<% if user_signed_in? %>
+    <div class="jumbotron jumbotron-home">
+        <div class="container">
+            <h1>Welcome Back!</h1>
+        </div>
+    </div>
+<% else %>
+<div class="jumbotron jumbotron-home">
+    <div class="container">
+        <h1>{name}Welcome to your profile</h1>
+        <p>Please keep your details up to date.</p>
+        <%= link_to "Edit Profile »", "#", class: "btn btn-primary btn-lg" %> 
+           
+        <% end %>
+
+    </div>
+</div>
+
